@@ -8,12 +8,15 @@ go 1.16
 require (
 	cloud.google.com/go/storage v1.21.0
 	github.com/Azure/azure-storage-blob-go v0.14.0
+	github.com/aliyun/aliyun-oss-go-sdk v2.2.1+incompatible
 	github.com/aws/aws-sdk-go v1.43.3
+	github.com/baiyubin/aliyun-sts-go-sdk v0.0.0-20180326062324-cfa1a18b161f // indirect
 	github.com/bmizerany/pat v0.0.0-20170815010413-6226ea591a40
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/prometheus/client_golang v1.12.1
+	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/sethgrid/pester v0.0.0-20190127155807-68a33a018ad0
 	github.com/stretchr/testify v1.7.0
 	github.com/vimeo/go-util v1.4.1

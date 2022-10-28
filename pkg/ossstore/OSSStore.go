@@ -135,7 +135,8 @@ func (upload ossUpload) WriteChunk(ctx context.Context, offset int64, src io.Rea
 		return 0, err
 	}
 
-	upload.info.Offset += n
+	//upload.info.Offset += n
+	upload.info.Offset = n
 	return n, err
 }
 
